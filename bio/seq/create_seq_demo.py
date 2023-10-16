@@ -33,6 +33,7 @@ def use_dictionary_init_part_seq():
     """
     my_partially_defined_sequence = Seq({0: "ACGT"}, 10)
     print(len(my_partially_defined_sequence))
+
     # 数据截取 列表索引[0,4) ,只能使用已知的序列
     print(my_partially_defined_sequence[0:4])
 
